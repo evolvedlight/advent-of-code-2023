@@ -34,6 +34,12 @@ public static partial class Day2GameCalculator
         return idsOfGoodGames.Sum();
     }
 
+    public static int SolveP2(string input)
+    {
+        var games = Parse(input);
+        return games.Select(g => g.CalculatePower()).ToList().Sum();
+    }
+
     private static List<Game> Parse(string input)
     {
         var games = new List<Game>();
@@ -72,6 +78,8 @@ public static partial class Day2GameCalculator
     private static partial Regex GameRegex();
     [GeneratedRegex(@"(\d+) (\w+)")]
     private static partial Regex ColorRegex();
+
+
 }
 
 
@@ -79,6 +87,11 @@ internal class Game
 {
     public int Id { get; set; }
     public List<Round> Rounds { get; set; } = [];
+
+    internal int CalculatePower()
+    {
+        return Rounds.SelectMany(r => r.Hands).GroupBy(h => h.color).Select(g => (color: g.Key, number: g.Max(h => h.number))).Aggregate(1, (total, next) => total * next.number);
+    }
 }
 
 public class Round
