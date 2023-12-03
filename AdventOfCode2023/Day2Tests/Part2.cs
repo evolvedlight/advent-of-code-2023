@@ -130,7 +130,7 @@ Game 98: 1 green, 9 red; 1 red, 2 green, 7 blue; 8 red, 1 blue; 6 red, 2 green; 
 Game 99: 1 green, 2 red, 6 blue; 6 red, 1 green, 5 blue; 11 blue, 6 red; 11 red, 1 green; 1 green, 11 red, 9 blue
 Game 100: 12 green, 8 blue, 2 red; 7 blue, 14 red, 8 green; 14 red, 1 blue, 4 green";
 
-            var expected = 2286;
+            var expected = 69629;
             Assert.Equal(expected, Day2GameCalculator.SolveP2(input));
         }
     }
