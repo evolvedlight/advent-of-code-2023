@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2", "Day2\Day2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Tests", "Day2Tests\Day2Tests.csproj", "{E2561F29-84B0-4BB1-B85A-FC5AD159A03E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", "{0278F7C7-D574-4015-8561-A96B10D1248B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3", "Day3\Day3.csproj", "{0278F7C7-D574-4015-8561-A96B10D1248B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3Tests", "Day3Tests\Day3Tests.csproj", "{089C0DE0-2D12-4E24-B727-FE4AF2031452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3Tests", "Day3Tests\Day3Tests.csproj", "{089C0DE0-2D12-4E24-B727-FE4AF2031452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4", "Day4\Day4.csproj", "{2C612903-8681-432C-8E8D-D0EF20197917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4Tests", "Day4Tests\Day4Tests.csproj", "{EB6AE1E2-3BA4-4198-A6A1-2277891DE40A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{089C0DE0-2D12-4E24-B727-FE4AF2031452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{089C0DE0-2D12-4E24-B727-FE4AF2031452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{089C0DE0-2D12-4E24-B727-FE4AF2031452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C612903-8681-432C-8E8D-D0EF20197917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C612903-8681-432C-8E8D-D0EF20197917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C612903-8681-432C-8E8D-D0EF20197917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C612903-8681-432C-8E8D-D0EF20197917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6AE1E2-3BA4-4198-A6A1-2277891DE40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6AE1E2-3BA4-4198-A6A1-2277891DE40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6AE1E2-3BA4-4198-A6A1-2277891DE40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6AE1E2-3BA4-4198-A6A1-2277891DE40A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
